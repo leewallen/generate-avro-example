@@ -1,5 +1,7 @@
 # Hue Avro Schemas
 
+Example for creating Avro data using the Philips Hue API resources as the source for the Avro Schemas.
+
 
 ## Schemas
 
