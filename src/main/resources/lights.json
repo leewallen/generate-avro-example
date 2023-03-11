@@ -1,0 +1,1354 @@
+{
+  "2": {
+    "state": {
+      "on": false,
+      "bri": 1,
+      "hue": 8417,
+      "sat": 140,
+      "effect": "none",
+      "xy": [
+        0.4573,
+        0.4100
+      ],
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2022-12-22T06:52:28"
+    },
+    "type": "Extended color light",
+    "name": "Bonus Room Light 3",
+    "modelid": "LCT014",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue color lamp",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 800,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.1700,
+            0.7000
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "sultanbulb",
+      "function": "mixed",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:02:4f:a9:01-0b",
+    "swversion": "1.101.2",
+    "swconfigid": "22B2F9F7",
+    "productid": "Philips-LCT014-1-A19ECLv4"
+  },
+  "4": {
+    "state": {
+      "on": false,
+      "bri": 254,
+      "alert": "select",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2022-12-25T06:43:27"
+    },
+    "type": "Dimmable light",
+    "name": "Hue white lamp 1",
+    "modelid": "LWB014",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue white lamp",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 5000,
+        "maxlumen": 840
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "classicbulb",
+      "function": "functional",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:02:84:b9:92-0b",
+    "swversion": "1.101.2",
+    "swconfigid": "4887482C",
+    "productid": "Philips-LWB014-1-A19DLv3"
+  },
+  "5": {
+    "state": {
+      "on": false,
+      "bri": 125,
+      "hue": 59354,
+      "sat": 228,
+      "effect": "none",
+      "xy": [
+        0.4976,
+        0.2368
+      ],
+      "ct": 436,
+      "alert": "select",
+      "colormode": "hs",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2022-12-15T06:21:15"
+    },
+    "type": "Extended color light",
+    "name": "Hue go 1",
+    "modelid": "LLC020",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue go",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 40,
+        "maxlumen": 300,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.1700,
+            0.7000
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "huego",
+      "function": "decorative",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:01:18:3a:ca-0b",
+    "swversion": "67.101.2"
+  },
+  "7": {
+    "state": {
+      "on": false,
+      "bri": 254,
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": false
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2023-01-01T11:15:34"
+    },
+    "type": "Color temperature light",
+    "name": "Hall light 1",
+    "modelid": "LTW011",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue ambiance downlight",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 680,
+        "ct": {
+          "min": 153,
+          "max": 454
+        }
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "floodbulb",
+      "function": "functional",
+      "direction": "downwards",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:02:f3:f0:36-0b",
+    "swversion": "1.101.2",
+    "swconfigid": "6B0552BC",
+    "productid": "Philips-LTW011-1-BR30CTv1"
+  },
+  "8": {
+    "state": {
+      "on": false,
+      "bri": 254,
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": false
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2023-01-01T11:15:27"
+    },
+    "type": "Color temperature light",
+    "name": "Hall light 2",
+    "modelid": "LTW011",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue ambiance downlight",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 680,
+        "ct": {
+          "min": 153,
+          "max": 454
+        }
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "floodbulb",
+      "function": "functional",
+      "direction": "downwards",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:02:f3:f0:5b-0b",
+    "swversion": "1.101.2",
+    "swconfigid": "6B0552BC",
+    "productid": "Philips-LTW011-1-BR30CTv1"
+  },
+  "9": {
+    "state": {
+      "on": false,
+      "bri": 1,
+      "hue": 8417,
+      "sat": 140,
+      "effect": "none",
+      "xy": [
+        0.4573,
+        0.4100
+      ],
+      "ct": 366,
+      "alert": "none",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2022-12-15T06:20:53"
+    },
+    "type": "Extended color light",
+    "name": "Bonus Room Light 1",
+    "modelid": "LCT016",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue color lamp",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 800,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.1700,
+            0.7000
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "sultanbulb",
+      "function": "mixed",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:03:ed:5d:84-0b",
+    "swversion": "1.101.2",
+    "swconfigid": "91925CAC",
+    "productid": "Philips-LCT016-1-A19ECLv5"
+  },
+  "10": {
+    "state": {
+      "on": false,
+      "bri": 1,
+      "hue": 8417,
+      "sat": 140,
+      "effect": "none",
+      "xy": [
+        0.4573,
+        0.4100
+      ],
+      "ct": 366,
+      "alert": "none",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2022-12-15T06:20:50"
+    },
+    "type": "Extended color light",
+    "name": "Bonus Room Light 2",
+    "modelid": "LCT016",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue color lamp",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 800,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.1700,
+            0.7000
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "sultanbulb",
+      "function": "mixed",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:04:28:1c:cb-0b",
+    "swversion": "1.101.2",
+    "swconfigid": "91925CAC",
+    "productid": "Philips-LCT016-1-A19ECLv5"
+  },
+  "11": {
+    "state": {
+      "on": false,
+      "bri": 254,
+      "alert": "none",
+      "mode": "homeautomation",
+      "reachable": false
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2022-12-16T06:41:52"
+    },
+    "type": "Dimmable light",
+    "name": "Hue white lamp 2",
+    "modelid": "LWB015",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue white lamp",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 5000
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "floodbulb",
+      "function": "functional",
+      "direction": "downwards",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:03:1d:54:0f-0b",
+    "swversion": "1.101.2",
+    "swconfigid": "D6FEADFD",
+    "productid": "Philips-LWB015-1-PAR38DLv1"
+  },
+  "12": {
+    "state": {
+      "on": false,
+      "bri": 254,
+      "alert": "none",
+      "mode": "homeautomation",
+      "reachable": false
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2022-12-15T06:19:55"
+    },
+    "type": "Dimmable light",
+    "name": "Hue white lamp 3",
+    "modelid": "LWB015",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue white lamp",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 5000
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "floodbulb",
+      "function": "functional",
+      "direction": "downwards",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:03:1d:54:0d-0b",
+    "swversion": "1.101.2",
+    "swconfigid": "D6FEADFD",
+    "productid": "Philips-LWB015-1-PAR38DLv1"
+  },
+  "14": {
+    "state": {
+      "on": false,
+      "bri": 254,
+      "hue": 8417,
+      "sat": 140,
+      "effect": "none",
+      "xy": [
+        0.4573,
+        0.4100
+      ],
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2023-02-24T07:14:17"
+    },
+    "type": "Extended color light",
+    "name": "Office Lamp",
+    "modelid": "LCA003",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue color Lamp",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 200,
+        "maxlumen": 800,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.1700,
+            0.7000
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "sultanbulb",
+      "function": "mixed",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:08:98:a1:a4-0b",
+    "swversion": "1.101.10",
+    "swconfigid": "4FD50FDB",
+    "productid": "Philips-LCA003-1-A19ECLv6"
+  },
+  "15": {
+    "state": {
+      "on": false,
+      "bri": 77,
+      "hue": 8417,
+      "sat": 140,
+      "effect": "none",
+      "xy": [
+        0.4573,
+        0.4100
+      ],
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2023-02-24T07:14:02"
+    },
+    "type": "Extended color light",
+    "name": "Marlo’s Light",
+    "modelid": "LCA003",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue color Lamp",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 200,
+        "maxlumen": 800,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.1700,
+            0.7000
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "sultanbulb",
+      "function": "mixed",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:08:7f:88:4b-0b",
+    "swversion": "1.101.10",
+    "swconfigid": "4FD50FDB",
+    "productid": "Philips-LCA003-1-A19ECLv6"
+  },
+  "19": {
+    "state": {
+      "on": false,
+      "bri": 84,
+      "hue": 4275,
+      "sat": 254,
+      "effect": "none",
+      "xy": [
+        0.6044,
+        0.3737
+      ],
+      "ct": 500,
+      "alert": "select",
+      "colormode": "xy",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2023-02-24T07:13:27"
+    },
+    "type": "Extended color light",
+    "name": "Teri’s Light",
+    "modelid": "LCA007",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue color lamp",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 200,
+        "maxlumen": 1100,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.1700,
+            0.7000
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "sultanbulb",
+      "function": "mixed",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:0c:70:bd:02-0b",
+    "swversion": "1.101.10",
+    "swconfigid": "47270DB8",
+    "productid": "Philips-LCA007-1-A19HECLv1"
+  },
+  "22": {
+    "state": {
+      "on": false,
+      "bri": 254,
+      "hue": 8404,
+      "sat": 140,
+      "effect": "none",
+      "xy": [
+        0.4575,
+        0.4099
+      ],
+      "ct": 366,
+      "alert": "select",
+      "colormode": "xy",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2023-02-24T07:13:56"
+    },
+    "type": "Extended color light",
+    "name": "Family room light 2",
+    "modelid": "LCA005",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue color lamp",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 200,
+        "maxlumen": 800,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.1700,
+            0.7000
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "sultanbulb",
+      "function": "mixed",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:0b:6a:cb:6d-0b",
+    "swversion": "1.101.10",
+    "swconfigid": "5419E9E3",
+    "productid": "Philips-LCA005-1-A19ECLv7"
+  },
+  "23": {
+    "state": {
+      "on": false,
+      "bri": 254,
+      "hue": 8404,
+      "sat": 140,
+      "effect": "none",
+      "xy": [
+        0.4575,
+        0.4099
+      ],
+      "ct": 366,
+      "alert": "select",
+      "colormode": "xy",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2023-02-24T07:13:17"
+    },
+    "type": "Extended color light",
+    "name": "Family room light 3",
+    "modelid": "LCA005",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue color lamp",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 200,
+        "maxlumen": 800,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.1700,
+            0.7000
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "sultanbulb",
+      "function": "mixed",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:0b:6d:b8:a2-0b",
+    "swversion": "1.101.10",
+    "swconfigid": "5419E9E3",
+    "productid": "Philips-LCA005-1-A19ECLv7"
+  },
+  "24": {
+    "state": {
+      "on": false,
+      "bri": 84,
+      "hue": 4275,
+      "sat": 254,
+      "effect": "none",
+      "xy": [
+        0.6044,
+        0.3737
+      ],
+      "ct": 500,
+      "alert": "select",
+      "colormode": "xy",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2023-02-24T07:13:42"
+    },
+    "type": "Extended color light",
+    "name": "Lee’s Light",
+    "modelid": "LCA007",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue color lamp",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 200,
+        "maxlumen": 1100,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.1700,
+            0.7000
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "sultanbulb",
+      "function": "mixed",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:0c:6d:f1:e6-0b",
+    "swversion": "1.101.10",
+    "swconfigid": "47270DB8",
+    "productid": "Philips-LCA007-1-A19HECLv1"
+  },
+  "25": {
+    "state": {
+      "on": false,
+      "bri": 254,
+      "alert": "select",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2022-12-16T06:41:57"
+    },
+    "type": "Dimmable light",
+    "name": "Spare Room Light",
+    "modelid": "LWA002",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue white lamp",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 5000,
+        "maxlumen": 800
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "sultanbulb",
+      "function": "functional",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:06:5f:63:d6-0b",
+    "swversion": "1.101.2",
+    "swconfigid": "728B880E",
+    "productid": "Philips-LWA002-1-A19DLv5"
+  },
+  "26": {
+    "state": {
+      "on": false,
+      "bri": 77,
+      "hue": 8417,
+      "sat": 140,
+      "effect": "none",
+      "xy": [
+        0.4573,
+        0.4100
+      ],
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2023-02-24T07:14:27"
+    },
+    "type": "Extended color light",
+    "name": "Marlo’s Light 2",
+    "modelid": "LCA005",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue color lamp",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 200,
+        "maxlumen": 800,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.1700,
+            0.7000
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "tableshade",
+      "function": "mixed",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:0c:75:ca:39-0b",
+    "swversion": "1.101.10",
+    "swconfigid": "5419E9E3",
+    "productid": "Philips-LCA005-1-A19ECLv7"
+  },
+  "28": {
+    "state": {
+      "on": false,
+      "bri": 164,
+      "hue": 4114,
+      "sat": 131,
+      "effect": "none",
+      "xy": [
+        0.4976,
+        0.3739
+      ],
+      "ct": 436,
+      "alert": "select",
+      "colormode": "xy",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2023-02-24T07:13:30"
+    },
+    "type": "Extended color light",
+    "name": "Hue color lamp 1",
+    "modelid": "LCA005",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue color lamp",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 200,
+        "maxlumen": 800,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.1700,
+            0.7000
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "sultanbulb",
+      "function": "mixed",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:0c:dd:a7:84-0b",
+    "swversion": "1.101.10",
+    "swconfigid": "5419E9E3",
+    "productid": "Philips-LCA005-1-A19ECLv7"
+  },
+  "30": {
+    "state": {
+      "on": false,
+      "bri": 254,
+      "hue": 8404,
+      "sat": 140,
+      "effect": "none",
+      "xy": [
+        0.4575,
+        0.4099
+      ],
+      "ct": 366,
+      "alert": "select",
+      "colormode": "xy",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2023-02-24T07:13:47"
+    },
+    "type": "Extended color light",
+    "name": "Family Room 3",
+    "modelid": "LCA007",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue color lamp",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 200,
+        "maxlumen": 1100,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.1700,
+            0.7000
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "tableshade",
+      "function": "mixed",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:0c:70:94:c1-0b",
+    "swversion": "1.101.10",
+    "swconfigid": "47270DB8",
+    "productid": "Philips-LCA007-1-A19HECLv1"
+  },
+  "31": {
+    "state": {
+      "on": false,
+      "bri": 1,
+      "hue": 8381,
+      "sat": 141,
+      "effect": "none",
+      "xy": [
+        0.4583,
+        0.4099
+      ],
+      "ct": 366,
+      "alert": "select",
+      "colormode": "xy",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2023-02-24T07:14:07"
+    },
+    "type": "Extended color light",
+    "name": "Garage Light",
+    "modelid": "LCA007",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue color lamp",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 200,
+        "maxlumen": 1100,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.1700,
+            0.7000
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "tableshade",
+      "function": "mixed",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:09:cc:2f:15-0b",
+    "swversion": "1.101.10",
+    "swconfigid": "47270DB8",
+    "productid": "Philips-LCA007-1-A19HECLv1"
+  },
+  "32": {
+    "state": {
+      "on": false,
+      "bri": 72,
+      "alert": "select",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2023-02-24T07:13:36"
+    },
+    "type": "Dimmable light",
+    "name": "Hue white lamp 4",
+    "modelid": "LWA008",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue white lamp",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 5000,
+        "maxlumen": 1600
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "tableshade",
+      "function": "functional",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:09:40:83:f2-0b",
+    "swversion": "1.101.10",
+    "swconfigid": "77F47F94",
+    "productid": "Philips-LWA008-1-A21DLv1"
+  },
+  "33": {
+    "state": {
+      "on": false,
+      "bri": 77,
+      "hue": 8417,
+      "sat": 140,
+      "effect": "none",
+      "xy": [
+        0.4573,
+        0.4100
+      ],
+      "ct": 366,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2023-02-07T14:05:33"
+    },
+    "type": "Extended color light",
+    "name": "Marlo downlight 1",
+    "modelid": "LCB001",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue color downlight",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 200,
+        "maxlumen": 650,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.1700,
+            0.7000
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "recessedceiling",
+      "function": "mixed",
+      "direction": "downwards",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:06:e4:5f:48-0b",
+    "swversion": "1.101.2",
+    "swconfigid": "B2FC3B72",
+    "productid": "Philips-LCB001-1-BR30ECLv4"
+  }
+}
