@@ -20,7 +20,7 @@ import static my.example.utils.LightsGenerator.makeLights;
 
 public class App {
     private static final Logger log = LoggerFactory.getLogger(App.class);
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         Random random = new Random();
         var numLights = random.nextInt(5);
         var lights = makeLights(numLights);
@@ -31,8 +31,6 @@ public class App {
         try (DataFileWriter<Lights> dataFileWriter = new DataFileWriter<>(lightsDatumWriter)) {
             dataFileWriter.create(lights.getSchema(), new File("lights.avro"));
             dataFileWriter.append(lights);
-        } catch (IOException e) {
-            throw new RuntimeException(e);
         }
     }
 
