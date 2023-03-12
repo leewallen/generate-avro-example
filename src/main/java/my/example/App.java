@@ -3,29 +3,37 @@
  */
 package my.example;
 
+
 import my.example.hue.Lights;
-import my.example.hue.Light;
-import java.util.ArrayList;
-import java.util.List;
+import org.apache.avro.file.DataFileWriter;
+import org.apache.avro.io.DatumWriter;
+import org.apache.avro.specific.SpecificDatumWriter;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.io.File;
+import java.io.IOException;
 import java.util.Random;
 
-
-import static my.example.utils.LightsGenerator.makeLight;
+import static my.example.utils.LightsGenerator.makeLights;
 
 
 public class App {
-
+    private static final Logger log = LoggerFactory.getLogger(App.class);
     public static void main(String[] args) {
         Random random = new Random();
-
         var numLights = random.nextInt(5);
-        List<Light> lightsList = new ArrayList<>(numLights);
-        for (int idx = 0; idx <= numLights; idx++) {
-            lightsList.add(makeLight(idx+1));
-        }
+        var lights = makeLights(numLights);
+        log.debug("Made {} lights.", lights.getLights().size());
+        log.info("{}", lights);
 
-        var lights = Lights.newBuilder().setLights(lightsList).build();
-        System.out.println(lights);
+        DatumWriter<Lights> lightsDatumWriter = new SpecificDatumWriter<>(Lights.class);
+        try (DataFileWriter<Lights> dataFileWriter = new DataFileWriter<>(lightsDatumWriter)) {
+            dataFileWriter.create(lights.getSchema(), new File("lights.avro"));
+            dataFileWriter.append(lights);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 
 

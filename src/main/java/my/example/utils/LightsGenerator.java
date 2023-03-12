@@ -17,6 +17,18 @@ import java.util.Random;
 import java.util.UUID;
 
 public class LightsGenerator {
+    static final Random random = new Random();
+
+    private LightsGenerator() {}
+    public static Lights makeLights(int numLights) {
+        List<Light> lightsList = new ArrayList<>(numLights);
+        for (int idx = 0; idx <= numLights; idx++) {
+            lightsList.add(makeLight(idx+1));
+        }
+
+        return Lights.newBuilder().setLights(lightsList).build();
+
+    }
     public static Light makeLight(int id) {
         return Light.newBuilder()
                 .setName(makeRandomString())
@@ -55,21 +67,20 @@ public class LightsGenerator {
 
     private static Startup makeStartup() {
         return Startup.newBuilder()
-                .setConfigured(new Random().nextBoolean())
+                .setConfigured(random.nextBoolean())
                 .setMode(makeRandomString())
                 .build();
     }
 
     private static Capabilities makeCapabilites() {
         return Capabilities.newBuilder()
-                .setCertified(new Random().nextBoolean())
+                .setCertified(random.nextBoolean())
                 .setControl(makeControl())
                 .setStreaming(makeStreaming())
                 .build();
     }
 
     private static Streaming makeStreaming() {
-        Random random = new Random();
         return Streaming.newBuilder()
                 .setProxy(random.nextBoolean())
                 .setRenderer(random.nextBoolean())
@@ -77,8 +88,6 @@ public class LightsGenerator {
     }
 
     private static Control makeControl() {
-        Random random = new Random();
-
         var doubles = new ArrayList<Double>();
         doubles.add(random.nextDouble());
         doubles.add(random.nextDouble());
@@ -101,7 +110,6 @@ public class LightsGenerator {
     }
 
     private static State makeState() {
-        Random random = new Random();
         var xyList = new ArrayList<Double>();
         xyList.add(random.nextDouble());
         xyList.add(random.nextDouble());
@@ -122,8 +130,8 @@ public class LightsGenerator {
 
     private static int makeRandomInt(int maxValue) {
         if (maxValue == 0)
-            return new Random().nextInt();
-        return new Random().nextInt(maxValue);
+            return random.nextInt();
+        return random.nextInt(maxValue);
     }
 
     private static int makeRandomInt() {
@@ -135,14 +143,12 @@ public class LightsGenerator {
         int leftLimit = 97; // letter 'a'
         int rightLimit = 122; // letter 'z'
         int targetStringLength = 10;
-        Random random = new Random();
         StringBuilder buffer = new StringBuilder(targetStringLength);
 
         if (prefix != null) buffer.append(prefix);
 
         for (int i = 0; i < targetStringLength; i++) {
-            int randomLimitedInt = leftLimit + (int)
-                    (random.nextFloat() * (rightLimit - leftLimit + 1));
+            int randomLimitedInt = leftLimit + (int)(random.nextFloat() * ((rightLimit - leftLimit) + 1));
             buffer.append((char) randomLimitedInt);
         }
 

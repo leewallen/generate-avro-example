@@ -4,5 +4,11 @@
 # Ignore Gradle build output directory
 build
 
+# Ignore .idea
+.idea/
+
 # Don't add avro-tools jar file
 avro-tools*.jar
+
+# Don't add avro files
+**/*.avro

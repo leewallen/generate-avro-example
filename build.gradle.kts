@@ -1,10 +1,7 @@
-import com.github.davidmc24.gradle.plugin.avro.GenerateAvroJavaTask
-
 plugins {
     // Apply the application plugin to add support for building a CLI application in Java.
     application
     java
-    id ("com.github.davidmc24.gradle.plugin.avro").version("1.6.0")
 }
 
 java {
@@ -26,6 +23,11 @@ repositories {
 dependencies {
 
     implementation("org.apache.avro:avro:$avroVersion")
+    implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("hue-avro-0.0.1.jar"))))
+    implementation("org.xerial.snappy:snappy-java:1.1.9.1")
+
+    implementation("ch.qos.logback:logback-classic:1.4.5")
+    implementation("org.slf4j:slf4j-api:2.0.6")
 
     // Use JUnit Jupiter for testing.
     testImplementation("org.junit.jupiter:junit-jupiter:$junitJupiterVersion")
@@ -39,37 +41,8 @@ application {
     mainClass.set("my.example.App")
 }
 
-sourceSets {
-    main {
-        java {
-            setSrcDirs(listOf("src/main/java"))
-        }
-    }
-
-    test {
-        java {
-            setSrcDirs(listOf("src/test/java"))
-        }
-    }
-}
-
 tasks.named<Test>("test") {
     // Use JUnit Platform for unit tests.
     useJUnitPlatform()
 }
 
-avro {
-    isCreateSetters.set(true)
-    isCreateOptionalGetters.set(false)
-    isGettersReturnOptional.set(false)
-    fieldVisibility.set("PUBLIC")
-    outputCharacterEncoding.set("UTF-8")
-    stringType.set("String")
-    templateDirectory.set(null as String?)
-    isEnableDecimalLogicalType.set(true)
-}
-
-
-tasks.withType<com.github.davidmc24.gradle.plugin.avro.GenerateAvroJavaTask> {
-    setOutputDir(file("src/main/java/"))
-}
