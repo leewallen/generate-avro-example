@@ -23,7 +23,7 @@ repositories {
 dependencies {
 
     implementation("org.apache.avro:avro:$avroVersion")
-    implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("hue-avro-0.0.1.jar"))))
+    implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("hue-avro-lib-0.0.1.jar"))))
     implementation("org.xerial.snappy:snappy-java:1.1.9.1")
 
     implementation("ch.qos.logback:logback-classic:1.4.5")
